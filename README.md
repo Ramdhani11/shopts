@@ -245,4 +245,4 @@ const submitHandler = (event: SyntheticEvent) => {
 
 ## 🔗 Links Deploy
 
-Ada error saat deployment
+https://shopts-w4pw-67alcdvtd-ramdhani11.vercel.app/
