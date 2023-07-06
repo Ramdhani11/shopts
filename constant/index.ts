@@ -1,11 +1,11 @@
-// import no_content from "@/assets/no-content.png";
+import no_content from "@/assets/no-content.png";
 import { BiSolidDashboard } from "react-icons/bi";
 import { LuLayoutDashboard, LuPackage, LuPackageOpen } from "react-icons/lu";
 import { DataDummy, DataSidebar } from "@/types";
 
-// export const images = {
-//   no_content,
-// };
+export const images = {
+  no_content,
+};
 
 export const dataSidebar: DataSidebar[] = [
   {
