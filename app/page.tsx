@@ -1,6 +1,6 @@
 "use client";
 import { auth, succesLogin } from "@/constant";
-// import Cookies from "js-cookie";
+import Cookies from "js-cookie";
 import { useRouter } from "next/navigation";
 import { SyntheticEvent, useState } from "react";
 
@@ -20,8 +20,8 @@ export default function Home() {
       alert("Password anda salah");
       return false;
     }
-    // Cookies.set("token", succesLogin.token);
-    // Cookies.set("nama", succesLogin.nama);
+    Cookies.set("token", succesLogin.token);
+    Cookies.set("nama", succesLogin.nama);
     router.replace("/dashboard");
   };
 
